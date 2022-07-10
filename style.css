@@ -80,6 +80,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+.features ul li:hover{
+    background-color:  rgb(72, 153, 203);
+}
 .features button{
     background: rgb(72, 153, 203);
     border: none;
