@@ -13,8 +13,36 @@ body{
     background-color: rgb(72, 153, 203);
 }
 .wrapper{
-    background-color: rgba(177, 178, 179, 0.468);
+    background-color: rgba(216, 220, 223, 0.822);
     width: 600px;
     border-radius: 15px;
     padding: 30px 30px 25px;
+}
+.wrapper header{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+.wrapper .content{
+    margin: 35px 0;
+}
+.content .quote-section{
+    display: flex;
+    justify-content: center;
+}
+.quote-section i{
+    font-size: 18px;
+}
+.quote-section i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-section i:last-child{
+    display: flex;
+    align-items: flex-end; 
+    margin: 0 0 3px 10px
+}
+.quote-section .quote{
+    text-align: center;
+    word-break: break-all;
+    font-size: 24px;
 }
