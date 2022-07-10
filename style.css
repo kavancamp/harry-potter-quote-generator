@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(72, 153, 203);
+}
+.wrapper{
+    background-color: rgba(177, 178, 179, 0.468);
+    width: 600px;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
