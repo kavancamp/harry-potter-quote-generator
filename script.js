@@ -2,7 +2,7 @@ const quote = document.querySelector(".quote"),
 author = document.querySelector(".author .name"),
 btn = document.querySelector("button"),
 copyBtn = document.querySelector(".copy"),
-snapBtn = document.querySelector(".snapchat"),
+twitBtn = document.querySelector(".twitter"),
 playBtn = document.querySelector(".sound");
 
 genRandomQuote = () => {
@@ -22,6 +22,11 @@ playBtn.addEventListener("click", () => {
 copyBtn.addEventListener("click", () => {
     navigator.clipboard.writeText(quote.innerText);
     //copies on click - writeText writes to clipboard
+});
+
+twitBtn.addEventListener("click", () => {
+    let tweetURL = `https://twitter.com/intent/tweet?url=${quote.innerText}`;
+    window.open(tweetURL, "_blank");
 });
 
 btn.addEventListener("click", genRandomQuote);
